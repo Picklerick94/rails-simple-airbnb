@@ -1,0 +1,11 @@
+<div class="container mt-3">
+  <div class="row">
+    <h1>All our Flats</h1>
+  </div>
+  <div class="row">
+    <p class="col"><%= "You searched for #{}. We found 4 flats out of our 4 on our website." %></p>
+  </div>
+  <div class="row">
+    <%= render 'flats/card', flat: @flat %>
+  </div>
+</div>

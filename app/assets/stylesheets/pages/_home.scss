@@ -1,0 +1,50 @@
+// Specific CSS for your home-page
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.flex {
+  display: flex;
+}
+.flat-card {
+  width: 100%;
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.flat-card-image {
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+}
+.flat-card-content {
+  padding: 24px;
+  background-color: #F8F9FA;
+}
+.flat-card-actions {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba(160,160,160,0.2);
+  padding: 16px 24px;
+}
+.ml-3 {
+  margin-left: 24px;
+}

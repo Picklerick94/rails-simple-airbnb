@@ -1,0 +1,21 @@
+// Import page-specific CSS files here.
+@import "home";
+
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #fff;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.navbar-wagon a {
+  text-decoration: none;
+}
+.flat-card-actions a {
+  text-decoration: none;
+}
+// text-decoration doesn't work
